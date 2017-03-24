@@ -1,0 +1,62 @@
+<html>
+    <head>
+        <title>HTML Form Style</title>
+        <link href="style.css" rel="stylesheet" type="text/css">
+    </head>
+    <body>
+        <div id="container">
+            <form method="GET" action="www.google.com">
+                <fieldset>
+                    <legend>Step 1:Your Details</legend>
+                    <div>
+                    <label for="name">Name</label>
+                    <input type="text" name="name" id="name" placeholder="First and Last name" maxlength="40">
+                    </div>
+                    <div>
+                    <label for="Email">Email</label>
+                    <input type="text" name="Email" id="Email" placeholder="Example@abc.com" maxlength="40">
+                    </div>
+                    <div>
+                    <label for="Phone">Phone</label>
+                    <input type="text" name="Phone" id="Phone" placeholder="eg +98000000000" maxlength="40">
+                    </div>
+                </fieldset>
+                <fieldset>
+                    <legend>Step 2: Delivery Address </legend>
+                    <div id="text-area">
+                        <label for="address">Address</label>
+                        <textarea id="address" name="address"></textarea>
+                    </div>
+                    <div>
+                        <label for="postcode">Post Code</label>
+                        <input type="text" name="postcode" id="postcode">
+                    </div>
+                    <div>
+                        <label for="country">Country</label>
+                        <input type="text" name="country" id="country" maxlength="30">
+                    </div>
+                    <div>
+                        <label for="cardtype">Cardtype</label></br>
+                        <input type="radio" name="cardtype" id="visa">Visa 
+                        <input type="radio" name="cardtype" id="master">Master
+                    </div>
+                    <div>
+                        <label for="cardnumber">Card number</label>
+                        <input type="text" name="cardnumber" id="cardnumber" maxlength="30">
+                    </div>
+                    <div>
+                        <label for="security">Security Number</label>
+                        <input type="text" name="Security" id="Security" maxlength="30">
+                    </div>
+                     <div>
+                        <label for="cardname">Name on the card</label>
+                        <input type="text" name="cardname" id="cardname" maxlength="40" placeholder="Name on the card">
+                    </div>
+                    </fieldset>
+                    </br>
+                    <input type="submit" value="BUY IT!" id="submit" />
+
+                    
+
+    </body>
+</html>

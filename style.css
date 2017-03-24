@@ -1,0 +1,67 @@
+body {
+
+    margin: 2px;
+    padding: 2px;
+    font-family: tahoma,sans-serif;
+    font-size: 10pt;
+    position: relative;
+}
+
+legend {
+
+    font-size: 15pt;
+    font-weight: bold;
+    color: white;
+    text-indent: 5px;
+}
+#container {
+
+background-image: url(background.jpg);
+width: 500px;
+}
+
+input, textarea {
+    display: inline-block;
+    width: 250px;
+    height: 30px;
+    padding: 5px;
+    border: 1px solid blueviolet;
+}
+div {
+
+    margin:5px;
+    padding: 7px;
+    border: 1px solid white;
+    background-color: steelblue;
+}
+
+div,input,textarea {
+
+    border-radius: 5px;
+}
+
+label {
+    display: inline-block;
+    width: 100px;   
+}
+
+textarea {
+    height: 75px; 
+    resize: vertical;
+}
+
+#text-area label {
+    vertical-align: top;
+}
+
+#submit {
+    height: 30px;
+    width: 100px;
+    background-color: #04152F;
+    border: none;
+    color: white;
+    text-align: center;
+    border-radius: 20px;
+    margin-left: 195px;    
+}
+
